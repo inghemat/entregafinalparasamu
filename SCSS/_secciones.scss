@@ -1,0 +1,37 @@
+
+//secciones web
+
+
+header {
+    background-color: $color-fondoprinc;
+    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    background-color: RGB(40, 159, 218, 255);
+    height: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    nav {
+      background-color: RGB(40, 159, 218, 255);
+      height: 55px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  
+  body {
+    background-image: url("../Imagenes/logoFondo.png");
+    background-size: 180%;
+    background-position-x: center;
+    background-position-y: 430px;
+  }
+  
+  
